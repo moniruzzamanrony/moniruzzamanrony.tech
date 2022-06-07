@@ -3,7 +3,8 @@ import {Router} from '@angular/router';
 import {animate, query, stagger, style, transition, trigger} from '@angular/animations';
 import {FormControl} from '@angular/forms';
 import {LanguageService} from 'src/app/services/language/language.service';
-
+// @ts-ignore
+import data from '../../../../assets/data/basic-data.json';
 
 @Component({
   selector: 'app-header',
@@ -33,7 +34,7 @@ export class HeaderComponent implements OnInit {
   pageYPosition: number;
   languageFormControl: FormControl = new FormControl();
   cvName = '';
-
+  JsonData = data;
   constructor(
     private router: Router,
     public languageService: LanguageService
@@ -47,7 +48,7 @@ export class HeaderComponent implements OnInit {
 
   }
 
-  scroll(el) {
+  scroll(el): void {
     if (document.getElementById(el)) {
       document.getElementById(el).scrollIntoView({behavior: 'smooth'});
     } else{
@@ -56,25 +57,18 @@ export class HeaderComponent implements OnInit {
     this.responsiveMenuVisible = false;
   }
 
-  downloadCV(){
-    this.languageService.translateService.get('Header.cvName').subscribe(val => {
-      this.cvName = val;
-      console.log(val);
-      // app url
-      const url = window.location.href;
-
-      // Open a new window with the CV
-      window.open(url + '/../assets/cv/' + this.cvName, '_blank');
-    });
-
+  downloadCV(): void{
+    const url = window.location.href;
+    // Open a new window with the CV
+    window.open(url + '/../assets/cv/' + this.JsonData.personal.cvName, '_blank');
   }
 
   @HostListener('window:scroll', ['getScrollPosition($event)'])
-    getScrollPosition(event) {
+    getScrollPosition(event): void {
         this.pageYPosition = window.pageYOffset;
     }
 
-    changeLanguage(language: string) {
+    changeLanguage(language: string): void{
       this.languageFormControl.setValue(language);
     }
 }

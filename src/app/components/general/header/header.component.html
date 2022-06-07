@@ -5,19 +5,19 @@
         </a>
         <ul ngbNav #nav="ngbNav" class="menu-ul">
             <li ngbNavItem>
-                <a ngbNavLink (click)='scroll("about")'><span class='nav-number'>01. </span> <span class="underline nav-text"> About me </span></a>
+                <a ngbNavLink (click)='scroll("about")'><span class='nav-number text-bold'><</span> <span class="underline nav-text"> About me </span><span class='nav-number text-bold'>/></span></a>
                 <ng-template ngbNavContent>First content</ng-template>
             </li>
             <li ngbNavItem>
-                <a ngbNavLink (click)='scroll("jobs")'><span class='nav-number'>02. </span> <span class="underline nav-text"> Experience</span></a>
+                <a ngbNavLink (click)='scroll("jobs")'><span class='nav-number text-bold'><</span> <span class="underline nav-text"> Experience</span><span class='nav-number text-bold'>/></span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem >
-                <a ngbNavLink (click)='scroll("proyects")'><span class='nav-number'>03. </span> <span class="underline nav-text"> Projects</span></a>
+                <a ngbNavLink (click)='scroll("proyects")'><span class='nav-number text-bold'><</span>  <span class="underline nav-text"> Projects</span><span class='nav-number text-bold'>/></span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem>
-                <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>04. </span> <span class="underline nav-text"> Contact</span></a>
+                <a ngbNavLink (click)='scroll("contact")'><span class='nav-number text-bold'><</span>  <span class="underline nav-text"> Contact</span><span class='nav-number text-bold'>/></span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem>
@@ -58,29 +58,6 @@
                             Resume
                           </a>
                       </li>
-                      <li>
-                            <div class="language-container">
-                                <div (click)='changeLanguage("es")' style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;' class="language-container language-container-selector active" [class.active]='languageFormControl.value == "es"'>
-                                    <img src="https://www.worldometers.info/img/flags/sp-flag.gif" alt="Español">
-                                    <span class="flag-text">Español</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2 arrow-active" viewBox="0 0 16 16">
-                                        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                                      </svg>
-                                </div>
-                                <div (click)='changeLanguage("en")' style="margin-top: 1px !important; border-top-left-radius: 0px !important; border-top-right-radius: 0px !important;" class="language-container language-container-selector" [class.active]='languageFormControl.value == "en"'>
-                                    <img src="https://www.worldometers.info/img/flags/us-flag.gif" alt="English">
-                                    <span class="flag-text">English</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2 arrow-active" viewBox="0 0 16 16">
-                                        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                                    </svg>
-                                </div>
-                            </div>
-                      </li>
-                        <!-- <li>
-                            <img src="https://www.worldometers.info/img/flags/us-flag.gif" alt="English">
-                        </li> -->
-
-
                     </ol>
                 </nav>
             </aside>

@@ -1,13 +1,18 @@
 <footer>
     <div [@animateFooter]>
         <ul class="footer-left-bar d-none d-md-block">
+          <li>
+            <a href="{{JsonData.personal.youtubeProfileLink}}" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
             <li>
-                <a href="https://github.com/{{JsonData.personal.githubUsername}}">
+                <a href="https://github.com/{{JsonData.personal.githubUsername}}" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
             </li>
             <li>
-                <a  href="https://www.linkedin.com/in/{{JsonData.personal.linkinUsername}}">
+                <a  href="https://www.linkedin.com/in/{{JsonData.personal.linkinUsername}}" target="_blank">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
             </li>
@@ -18,7 +23,7 @@
     </div>
 
     <div class="footer-credits text-center" >
-        <a  href="https://github.com/{{JsonData.personal.githubUsername}}">
+        <a  href="https://github.com/{{JsonData.personal.githubUsername}}" target="_blank">
             <div [innerHTML]="JsonData.personal.copyright"></div>
         </a>
     </div>
