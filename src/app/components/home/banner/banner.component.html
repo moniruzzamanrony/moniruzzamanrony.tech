@@ -1,22 +1,29 @@
 <section class="section banner">
+  <!-- Background animtion-->
+  <div class="background">
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+  </div>
     <div [@bannerTrigger] class="container">
         <div class="section-box-banner">
             <div class="content">
                 <div>
-                    <!-- <h1>Hola, mi nombre es</h1> -->
-                    <h1>{{"Banner.Pretitle" | translate}}</h1>
+                    <h1>Hello! This is</h1>
                 </div>
                 <div class='banner-title'>
-                    <h2>José Hernández.</h2>
-                    <h3>Frontend Developer</h3>
+                    <h2>{{JsonData.personal.name}}</h2>
+                    <h4>{{JsonData.personal.profession}}</h4>
                 </div>
                 <div class='banner-description'>
-                    <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
+                    <p [innerHTML]="JsonData.personal.aboutMe" class="mt-4"></p>
                 </div>
             </div>
             <div class="div-btn-banner">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:andresjosehr@gmail.com" target="_black" class="main-btn">
-                    {{"Banner.ActionBtn" | translate}}
+                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:{{JsonData.personal.email}}" target="_black" class="main-btn">
+                  Get in touch
                 </a>
             </div>
         </div>

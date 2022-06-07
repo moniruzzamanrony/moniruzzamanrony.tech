@@ -1,0 +1,10 @@
+{
+  "personal": {
+    "name": "Moniruzzaman Rony",
+    "profession": "Software Engineer",
+    "aboutMe": "I have <span class='underline'>4 years of experience</span> developing systems,\ninterfaces, bots, and technological solutions to make the web a better place.\nI am dedicated to writing and refactoring clean, reusable,\nand scalable code in <span class='underline'>Angular</span> and\nsometimes in <span class='underline'>Laravel</span> applying good practices and development\nstandards.",
+    "email": "moniruzzamanrony29@gmail.com",
+    "githubUsername": "moniruzzamanrony29@gmail.com",
+    "linkinUsername": "moniruzzamanrony29@gmail.com"
+  }
+}
