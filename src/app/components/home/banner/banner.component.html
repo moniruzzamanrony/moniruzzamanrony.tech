@@ -7,25 +7,29 @@
     <div class="cube"></div>
     <div class="cube"></div>
   </div>
-    <div [@bannerTrigger] class="container">
-        <div class="section-box-banner">
-            <div class="content">
-                <div>
-                    <h1>Hello! This is</h1>
-                </div>
-                <div class='banner-title'>
-                    <h2>{{JsonData.personal.name}}</h2>
-                    <h4>{{JsonData.personal.profession}}</h4>
-                </div>
-                <div class='banner-description'>
-                    <p [innerHTML]="JsonData.personal.aboutMe" class="mt-4"></p>
-                </div>
-            </div>
-            <div class="div-btn-banner">
-                <a href="mailto:{{JsonData.personal.email}}" target="_black" class="main-btn">
-                  Get in touch
-                </a>
-            </div>
+  <div [@bannerTrigger] class="container">
+    <div class="section-box-banner">
+      <div class="content">
+        <div>
+          <h1>Hello! This is</h1>
         </div>
+        <div class="banner-title">
+          <h2>{{ JsonData.personal.name }}</h2>
+          <h4>{{ JsonData.personal.profession }}</h4>
+        </div>
+        <div class="banner-description">
+          <p [innerHTML]="JsonData.personal.aboutMe" class="mt-4"></p>
+        </div>
+      </div>
+      <div class="div-btn-banner">
+        <a
+          class="main-btn"
+          href="mailto:{{ JsonData.personal.email }}"
+          target="_black"
+        >
+          Get in touch
+        </a>
+      </div>
     </div>
+  </div>
 </section>

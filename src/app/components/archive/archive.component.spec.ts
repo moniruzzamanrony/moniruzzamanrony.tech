@@ -8,9 +8,8 @@ describe('ArchiveComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ArchiveComponent ]
-    })
-    .compileComponents();
+      declarations: [ArchiveComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

@@ -1,60 +1,61 @@
-
 @import "./../../../../variables.scss";
 
-.banner{
-    min-height: 100vh;
-    background-image: url('/src/assets/images/logo.gif');
-    .container{
-        display: table;
-        height: 100vh;
+.banner {
+  min-height: 100vh;
+  background-image: url('/src/assets/images/logo.gif');
 
-        .section-box-banner{
-            display: table-cell;
-            vertical-align: middle;
+  .container {
+    display: table;
+    height: 100vh;
 
-            .content{
-                margin-top: 98px;
-            }
+    .section-box-banner {
+      display: table-cell;
+      vertical-align: middle;
 
-            h1{
+      .content {
+        margin-top: 98px;
+      }
 
-                color: #64ffda;
-                margin: 0 0 20px 3px;
-                font-size: 16px;
-                font-weight: normal;
-                font-family: $CodeFont;
-            }
+      h1 {
 
-            h2, h3 {
-                font-weight: 600;
-                font-size: 80px;
-                line-height: 1.1;
-                margin: 0;
-                font-family: $MainFont;
-            }
+        color: #64ffda;
+        margin: 0 0 20px 3px;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: $CodeFont;
+      }
 
-            h2{
-                color: $LightestSlate;
-            }
-            h3{
-                color: $Slate;
-            }
+      h2, h3 {
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 1.1;
+        margin: 0;
+        font-family: $MainFont;
+      }
 
-            .banner-description{
-                margin-bottom: 70px;
-            }
+      h2 {
+        color: $LightestSlate;
+      }
 
-            p{
-                max-width: 500px;
-            }
+      h3 {
+        color: $Slate;
+      }
 
-            .div-btn-banner{
-                height: 43px;
-            }
-        }
+      .banner-description {
+        margin-bottom: 70px;
+      }
 
+      p {
+        max-width: 500px;
+      }
 
+      .div-btn-banner {
+        height: 43px;
+      }
     }
+
+
+  }
 }
 
 /* ============= Animation background ========= */
@@ -69,34 +70,41 @@
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   animation: cube 12s ease-in forwards infinite;
 }
+
 .cube:nth-child(2n) {
-  border-color: #FFF ;
+  border-color: #FFF;
 }
+
 .cube:nth-child(2) {
   animation-delay: 1s;
   left: 25vw;
   top: 40vh;
 }
+
 .cube:nth-child(3) {
   animation-delay: 2s;
   left: 75vw;
   top: 50vh;
 }
+
 .cube:nth-child(4) {
   animation-delay: 5s;
   left: 90vw;
   top: 10vh;
 }
+
 .cube:nth-child(5) {
   animation-delay: 7s;
   left: 10vw;
   top: 85vh;
 }
+
 .cube:nth-child(6) {
   animation-delay: 9s;
   left: 50vw;
   top: 10vh;
 }
+
 /* Animate Background*/
 @keyframes Gradient {
   0% {
@@ -109,6 +117,7 @@
     background-position: 0% 50%;
   }
 }
+
 @keyframes cube {
   from {
     transform: scale(0) rotate(0deg) translate(-50%, -50%);

@@ -1,14 +1,9 @@
-import {Injectable} from '@angular/core';
-import {GoogleAnalyticsService} from 'ngx-google-analytics';
+import { Injectable } from '@angular/core';
+import { GoogleAnalyticsService } from 'ngx-google-analytics';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AnalyticsService {
-
-  constructor(
-    private $gaService: GoogleAnalyticsService
-  ) {
-  }
-
+  constructor(private $gaService: GoogleAnalyticsService) {}
 }

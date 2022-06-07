@@ -1,66 +1,87 @@
-<nav [@animateMenu] class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0'>
-    <div class="container">
-        <a class="navbar-brand text-light" [routerLink]="'inicio'">
-            <img src='assets/images/logo.png' width='25' />
+<nav
+  [@animateMenu]
+  [class.nav-shadow]="this.pageYPosition > 0"
+  class="navbar main-navbar on-top"
+>
+  <div class="container">
+    <a [routerLink]="'inicio'" class="navbar-brand text-light">
+      <img src="assets/images/logo.png" width="25" />
+    </a>
+    <ul #nav="ngbNav" class="menu-ul" ngbNav>
+      <li ngbNavItem>
+        <a (click)="scroll('about')" ngbNavLink
+          ><span class="nav-number text-bold"><</span>
+          <span class="underline nav-text"> About me </span
+          ><span class="nav-number text-bold">/></span></a
+        >
+        <ng-template ngbNavContent>First content</ng-template>
+      </li>
+      <li ngbNavItem>
+        <a (click)="scroll('jobs')" ngbNavLink
+          ><span class="nav-number text-bold"><</span>
+          <span class="underline nav-text"> Experience</span
+          ><span class="nav-number text-bold">/></span></a
+        >
+        <ng-template ngbNavContent>Second content</ng-template>
+      </li>
+      <li ngbNavItem>
+        <a (click)="scroll('proyects')" ngbNavLink
+          ><span class="nav-number text-bold"><</span>
+          <span class="underline nav-text"> Projects</span
+          ><span class="nav-number text-bold">/></span></a
+        >
+        <ng-template ngbNavContent>Second content</ng-template>
+      </li>
+      <li ngbNavItem>
+        <a (click)="scroll('contact')" ngbNavLink
+          ><span class="nav-number text-bold"><</span>
+          <span class="underline nav-text"> Contact</span
+          ><span class="nav-number text-bold">/></span></a
+        >
+        <ng-template ngbNavContent>Second content</ng-template>
+      </li>
+      <li ngbNavItem>
+        <a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
+          Resume
         </a>
-        <ul ngbNav #nav="ngbNav" class="menu-ul">
-            <li ngbNavItem>
-                <a ngbNavLink (click)='scroll("about")'><span class='nav-number text-bold'><</span> <span class="underline nav-text"> About me </span><span class='nav-number text-bold'>/></span></a>
-                <ng-template ngbNavContent>First content</ng-template>
-            </li>
-            <li ngbNavItem>
-                <a ngbNavLink (click)='scroll("jobs")'><span class='nav-number text-bold'><</span> <span class="underline nav-text"> Experience</span><span class='nav-number text-bold'>/></span></a>
-                <ng-template ngbNavContent>Second content</ng-template>
-            </li>
-            <li ngbNavItem >
-                <a ngbNavLink (click)='scroll("proyects")'><span class='nav-number text-bold'><</span>  <span class="underline nav-text"> Projects</span><span class='nav-number text-bold'>/></span></a>
-                <ng-template ngbNavContent>Second content</ng-template>
-            </li>
-            <li ngbNavItem>
-                <a ngbNavLink (click)='scroll("contact")'><span class='nav-number text-bold'><</span>  <span class="underline nav-text"> Contact</span><span class='nav-number text-bold'>/></span></a>
-                <ng-template ngbNavContent>Second content</ng-template>
-            </li>
-            <li ngbNavItem>
-                <a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
-                  Resume
-                </a>
-            </li>
-        </ul>
-        <div class="menu-wrapper">
-            <div [class.animate]='responsiveMenuVisible' (click)='responsiveMenuVisible = !responsiveMenuVisible' class="hamburger-menu"></div>
-        </div>
-        <div class="menu-responsive" [ngStyle]="{'pointer-events': !responsiveMenuVisible ? 'none' : '' }">
-            <aside [class.aside-show]='responsiveMenuVisible' [class.nav-shadow]='this.pageYPosition>0' class="on-top">
-                <nav>
-                    <ol>
-                        <li>
-                            <a (click)='scroll("about")'>
-                                <span>01. </span> About me
-                            </a>
-                        </li>
-                        <li>
-                            <a (click)='scroll("jobs")'>
-                                <span>02. </span> Experience
-                            </a>
-                        </li>
-                        <li >
-                          <a (click)='scroll("proyects")'>
-                              <span>03. </span> Projects
-                          </a>
-                      </li>
-                      <li>
-                        <a (click)='scroll("proyects")'>
-                            <span>04. </span> Contact
-                        </a>
-                      </li>
-                      <li>
-                          <a (click)="downloadCV()" class="main-btn cv-btn">
-                            Resume
-                          </a>
-                      </li>
-                    </ol>
-                </nav>
-            </aside>
-        </div>
+      </li>
+    </ul>
+    <div class="menu-wrapper">
+      <div
+        (click)="responsiveMenuVisible = !responsiveMenuVisible"
+        [class.animate]="responsiveMenuVisible"
+        class="hamburger-menu"
+      ></div>
     </div>
+    <div
+      [ngStyle]="{ 'pointer-events': !responsiveMenuVisible ? 'none' : '' }"
+      class="menu-responsive"
+    >
+      <aside
+        [class.aside-show]="responsiveMenuVisible"
+        [class.nav-shadow]="this.pageYPosition > 0"
+        class="on-top"
+      >
+        <nav>
+          <ol>
+            <li>
+              <a (click)="scroll('about')"> <span>01. </span> About me </a>
+            </li>
+            <li>
+              <a (click)="scroll('jobs')"> <span>02. </span> Experience </a>
+            </li>
+            <li>
+              <a (click)="scroll('proyects')"> <span>03. </span> Projects </a>
+            </li>
+            <li>
+              <a (click)="scroll('proyects')"> <span>04. </span> Contact </a>
+            </li>
+            <li>
+              <a (click)="downloadCV()" class="main-btn cv-btn"> Resume </a>
+            </li>
+          </ol>
+        </nav>
+      </aside>
+    </div>
+  </div>
 </nav>

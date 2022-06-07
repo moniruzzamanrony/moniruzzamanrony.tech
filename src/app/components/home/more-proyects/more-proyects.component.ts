@@ -1,30 +1,28 @@
-import {Component, OnInit} from '@angular/core';
-import {NavigationEnd, Router} from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-more-proyects',
   templateUrl: './more-proyects.component.html',
-  styleUrls: ['./more-proyects.component.scss']
+  styleUrls: ['./more-proyects.component.scss'],
 })
 export class MoreProyectsComponent implements OnInit {
+  constructor(private router: Router) {}
 
-  constructor(
-    private router: Router, ) { }
-
-    ngOnInit() {
-        this.router.events.subscribe((evt) => {
-            if (!(evt instanceof NavigationEnd)) {
-                return;
-            }
-            window.scrollTo(0, 0);
-        });
-    }
-    redirect(route: string, event) {
-      const id = event.target.id;
-      if (id === 'demoLink' || id === 'ghLink'){
+  ngOnInit(): void {
+    this.router.events.subscribe((evt) => {
+      if (!(evt instanceof NavigationEnd)) {
         return;
       }
-      window.open(route, '_blank');
-    }
+      window.scrollTo(0, 0);
+    });
+  }
 
+  redirect(route: string, event): void {
+    const id = event.target.id;
+    if (id === 'demoLink' || id === 'ghLink') {
+      return;
+    }
+    window.open(route, '_blank');
+  }
 }

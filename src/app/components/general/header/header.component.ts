@@ -1,8 +1,14 @@
-import {Component, HostListener, OnInit} from '@angular/core';
-import {Router} from '@angular/router';
-import {animate, query, stagger, style, transition, trigger} from '@angular/animations';
-import {FormControl} from '@angular/forms';
-import {LanguageService} from 'src/app/services/language/language.service';
+import { Component, HostListener, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import {
+  animate,
+  query,
+  stagger,
+  style,
+  transition,
+  trigger,
+} from '@angular/animations';
+import { FormControl } from '@angular/forms';
 // @ts-ignore
 import data from '../../../../assets/data/basic-data.json';
 
@@ -14,61 +20,57 @@ import data from '../../../../assets/data/basic-data.json';
     trigger('animateMenu', [
       transition(':enter', [
         query('*', [
-          style({opacity: 0, transform: 'translateY(-50%)'}),
+          style({ opacity: 0, transform: 'translateY(-50%)' }),
           stagger(50, [
             animate(
               '250ms cubic-bezier(0.35, 0, 0.25, 1)',
-              style({opacity: 1, transform: 'none'}))
-          ])
-        ])
-      ])
-    ])
-  ]
+              style({ opacity: 1, transform: 'none' })
+            ),
+          ]),
+        ]),
+      ]),
+    ]),
+  ],
 })
-
-
-
 export class HeaderComponent implements OnInit {
-
   responsiveMenuVisible = false;
   pageYPosition: number;
   languageFormControl: FormControl = new FormControl();
   cvName = '';
   JsonData = data;
-  constructor(
-    private router: Router,
-    public languageService: LanguageService
-  ) { }
 
-  ngOnInit(): void {
+  constructor(private router: Router) {}
 
-    this.languageFormControl.valueChanges.subscribe(val => this.languageService.changeLanguage(val));
-
-    this.languageFormControl.setValue(this.languageService.language);
-
-  }
+  ngOnInit(): void {}
 
   scroll(el): void {
     if (document.getElementById(el)) {
-      document.getElementById(el).scrollIntoView({behavior: 'smooth'});
-    } else{
-      this.router.navigate(['/home']).then(() => document.getElementById(el).scrollIntoView({behavior: 'smooth'}) );
+      document.getElementById(el).scrollIntoView({ behavior: 'smooth' });
+    } else {
+      this.router
+        .navigate(['/home'])
+        .then(() =>
+          document.getElementById(el).scrollIntoView({ behavior: 'smooth' })
+        );
     }
     this.responsiveMenuVisible = false;
   }
 
-  downloadCV(): void{
+  downloadCV(): void {
     const url = window.location.href;
     // Open a new window with the CV
-    window.open(url + '/../assets/cv/' + this.JsonData.personal.cvName, '_blank');
+    window.open(
+      url + '/../assets/cv/' + this.JsonData.personal.cvName,
+      '_blank'
+    );
   }
 
   @HostListener('window:scroll', ['getScrollPosition($event)'])
-    getScrollPosition(event): void {
-        this.pageYPosition = window.pageYOffset;
-    }
+  getScrollPosition(event): void {
+    this.pageYPosition = window.pageYOffset;
+  }
 
-    changeLanguage(language: string): void{
-      this.languageFormControl.setValue(language);
-    }
+  changeLanguage(language: string): void {
+    this.languageFormControl.setValue(language);
+  }
 }
