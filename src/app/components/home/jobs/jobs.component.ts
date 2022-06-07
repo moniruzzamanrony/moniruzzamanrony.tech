@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-jobs',
@@ -7,11 +6,11 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
   styleUrls: ['./jobs.component.scss']
 })
 export class JobsComponent implements OnInit {
-  
-  active = 0
-  
+
+  active = 0;
+
   constructor(
-    public analyticsService: AnalyticsService
+
   ) { }
 
   ngOnInit(): void {

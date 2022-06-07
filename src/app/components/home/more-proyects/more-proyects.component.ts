@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
-import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import {Component, OnInit} from '@angular/core';
+import {NavigationEnd, Router} from '@angular/router';
 
 @Component({
   selector: 'app-more-proyects',
@@ -10,22 +9,20 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class MoreProyectsComponent implements OnInit {
 
   constructor(
-    private router: Router,
-    public analyticsService: AnalyticsService
-    ) { }
+    private router: Router, ) { }
 
     ngOnInit() {
         this.router.events.subscribe((evt) => {
             if (!(evt instanceof NavigationEnd)) {
                 return;
             }
-            window.scrollTo(0, 0)
+            window.scrollTo(0, 0);
         });
     }
     redirect(route: string, event) {
       const id = event.target.id;
-      if(id=='demoLink' || id=='ghLink'){
-        return
+      if (id === 'demoLink' || id === 'ghLink'){
+        return;
       }
       window.open(route, '_blank');
     }

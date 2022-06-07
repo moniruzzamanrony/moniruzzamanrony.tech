@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import {Component, OnInit} from '@angular/core';
+// @ts-ignore
+import data from '../../../../assets/data/basic-data.json';
 
 @Component({
   selector: 'app-contact',
@@ -7,10 +8,8 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
-
-  constructor(
-    public analyticsService: AnalyticsService
-  ) { }
+  JsonData = data;
+  constructor() { }
 
   ngOnInit(): void {
   }

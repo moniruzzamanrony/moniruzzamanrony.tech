@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
-import {trigger, style, animate, transition, stagger, query } from '@angular/animations';
-import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import {animate, query, stagger, style, transition, trigger} from '@angular/animations';
 // @ts-ignore
 import data from '../../../../assets/data/basic-data.json';
+
 @Component({
   selector: 'app-banner',
   templateUrl: './banner.component.html',
@@ -25,11 +25,8 @@ import data from '../../../../assets/data/basic-data.json';
   ]
 })
 export class BannerComponent implements OnInit {
-
   JsonData = data;
-  constructor(
-    public analyticsService: AnalyticsService
-  ) {}
+  constructor() {}
 
   ngOnInit(): void {
   }
