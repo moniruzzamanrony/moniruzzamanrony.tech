@@ -229,7 +229,7 @@
 }
 
 .nav-shadow {
-  height: 70px;
+  height: 85px;
   box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
@@ -291,19 +291,6 @@
 .language-container-selector:hover {
   background: #172a45 !important;
 }
-
-// .language-container-selector.active:after {
-//     content: " ";
-//     background: #58e2c4;
-//     width: 61%;
-//     height: 1px;
-//     position: absolute;
-//     border-radius: 10px;
-//     left: 0;
-//     right: 0;
-//     margin: auto;
-//     margin-top: 21px;
-// }
 .arrow-language {
   font-size: 10px;
   height: 10px;

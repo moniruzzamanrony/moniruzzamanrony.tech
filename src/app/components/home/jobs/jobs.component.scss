@@ -5,12 +5,11 @@
   display: flex;
 
   .tab-content {
-    margin-left: 38px;
+    margin-left: 12px;
   }
 
   ul {
     display: block;
-    width: 114.33px;
     border: none;
   }
 
@@ -97,6 +96,7 @@
   }
 
   .job-description {
+    width: 500px;
     position: relative;
     padding-left: 30px;
     margin-bottom: 10px;

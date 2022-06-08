@@ -2,12 +2,51 @@
   "personal": {
     "name": "Moniruzzaman Rony",
     "profession": "Software Engineer",
-    "aboutMe": "I have <span class='underline'>2+ years of experience</span> in programming sector,\n and have been working as  <span class='underline'>A Fullstack developer</span>.\nI am dedicated to writing and refactoring  <span class='underline'>clean, reusable,\nand scalable code</span> in <span class='underline'>Angular</span> and\n<span class='underline'>Springboot</span> applying good practices and development\nstandards.",
+    "aboutMe": "I have <span class='underline'>2 years+ of experience</span> in programming sector,\n and have been working as  <span class='underline'>A Fullstack developer</span>.\nI am dedicated to writing and refactoring  <span class='underline'>clean, reusable,\nand scalable code</span> in <span class='underline'>Angular</span> and\n<span class='underline'>Springboot</span> applying good practices and development\nstandards.",
     "email": "moniruzzamanrony29@gmail.com",
     "githubUsername": "moniruzzamanrony",
     "linkinUsername": "monirozzaman-roni",
     "youtubeProfileLink": "https://www.youtube.com/channel/UCJ-mkAvUFPLYkMaMGz8xAhw",
-    "copyright": "&#9400; www.moniruzzamanrony.tech",
+    "copyright": "Copyright &#9400; www.moniruzzamanrony.tech 2022",
     "cvName": "Moniruzzaman_Rony_CV.pdf"
+  },
+  "professionalInfo": {
+    "jobsExperience": [
+      {
+        "Tab": "Impel IT Solutions",
+        "Title": "Fullstack Software Engineer",
+        "Date": "January 2022 - Present",
+        "Description": [
+          "Creation and maintenance of a monitoring platform with graphics in WordPress.",
+          "Functional programming in templates and plugins to add the necessary monitoring features.",
+          "Implementation of continuous integration and daily backups.",
+          "Creation and maintenance of a second Monitoring Platform Done in Angular, Angular Material, Laravel, Mysql, RxJS, Sass with graphics (configurable), alarm system, and user management and configuration of general parameters.",
+          "Planning meetings in reports."
+        ]
+      },
+      {
+        "Tab": "IBCS-PRIMAX Software (Bangladesh) Ltd.",
+        "Title": "Fullstack Programmer",
+        "Date": "Dec 2020 - January 2022",
+        "Description": [
+          "Implementing continuous improvements, working on frontend and backend.",
+          "Creating platforms with Angular, Laravel, ExpressJS, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
+          "Automation of processes with data structures.",
+          "Design layout with SASS, Bootstrap, Materialize, Bulma, etc."
+        ]
+      },
+      {
+        "Tab": "Chumbok IT (Remote)",
+        "Title": "Junior developer",
+        "Date": "January 2019 - Nev 2020",
+        "Description": [
+          "Leading a team of 4 people in the development of a Tourism Data management platform made in Angular, Laravel, and MySQL.",
+          "Implementation CI / CD in Azure. Refactoring and optimizing application load times.",
+          "Coding of API requests with RxJS.",
+          "Creation of modules with complex reactive forms",
+          "Writing weekly reports about goals and plans."
+        ]
+      }
+    ]
   }
 }
