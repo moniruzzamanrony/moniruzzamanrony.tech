@@ -4,13 +4,13 @@
       <div data-aos="fade-up" data-aos-duration="1000">
         <h3 class="section-title">
           <span class="n-section-title">03.</span>
-          {{ 'FeatureProjects.Title' | translate }}
+          My projects
         </h3>
       </div>
 
       <div
         *ngFor="
-          let project of 'FeatureProjects.Projects' | translate;
+          let project of JsonData.projects[0].list;
           let i = index
         "
         class="d-flex proyect-container"
@@ -63,7 +63,7 @@
               [class.text-left]="i % 2 != 0"
               class="feature-proyect"
             >
-              {{ 'FeatureProjects.Label' | translate }}
+              {{ project.Associated }}
             </h4>
             <h5
               [class.text-right]="i % 2 == 0"
@@ -142,7 +142,7 @@
           </div>
         </div>
       </div>
-      <div></div>
+
     </div>
   </div>
 </section>

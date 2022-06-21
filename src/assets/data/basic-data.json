@@ -48,5 +48,180 @@
         ]
       }
     ]
-  }
+  },
+  "projects": [
+    {
+      "projectType": "Feature Project",
+      "list": [
+        {
+          "Title": "AtMetax",
+          "Associated": "Associated with Impel IT Solutions",
+          "Description": "AtMetax is in charge of <span class='underline'>evaluating the cost of rebuilding structures</span> that have been destroyed due to unforeseen circumstances and are covered by insurance.",
+          "imgs": [
+            "assets/images/agrourbana/agrourbana1.png",
+            "assets/images/agrourbana/agrourbana2.png",
+            "assets/images/agrourbana/agrourbana3.png",
+            "assets/images/agrourbana/agrourbana4.png",
+            "assets/images/agrourbana/agrourbana5.png"
+          ],
+          "Technologies": [
+            "Spring Boot",
+            "Angular 11",
+            "SASS",
+            "Angular Material",
+            "RxJS",
+            "ThreeJs",
+            "MySQL(DB)"
+          ]
+        },
+        {
+          "Title": "PPS and RMS of Integrated Digital Service Delivery Platform (IDSDP), Planning Division & Commission, Ministry of Planning.",
+          "Associated": "Associated with IBCS-PRIMAX Software (Bangladesh) Ltd.",
+          "Description": "This project aims to follow up on and continue the activities of the Implementation of Digital ECNEC (IDE project) to address capacity building and efficiency enhancements within agencies, ministries, and the planning commission to evaluate, appraise, and monitor public sector projects.",
+          "imgs": [
+            "assets/images/tusuperplan/tusuperplan1.png",
+            "assets/images/tusuperplan/tusuperplan2.png",
+            "assets/images/tusuperplan/tusuperplan3.png",
+            "assets/images/tusuperplan/tusuperplan4.png",
+            "assets/images/tusuperplan/tusuperplan5.png"
+          ],
+          "Technologies": [
+            "Laravel",
+            "Angular",
+            "SASS",
+            "Angular Material",
+            "RxJS"
+          ]
+        },
+        {
+          "Title": "Proyexiot",
+          "Description": "Data monitoring platform belonging to water wells, tugboats, and various installations made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers.</span>",
+          "imgs": [
+            "assets/images/proyex/proyex1.png",
+            "assets/images/proyex/proyex2.png",
+            "assets/images/proyex/proyex3.png",
+            "assets/images/proyex/proyex4.png",
+            "assets/images/proyex/proyex5.png",
+            "assets/images/proyex/proyex6.png",
+            "assets/images/proyex/proyex7.png",
+            "assets/images/proyex/proyex8.png",
+            "assets/images/proyex/proyex9.png",
+            "assets/images/proyex/proyex10.png",
+            "assets/images/proyex/proyex11.png",
+            "assets/images/proyex/proyex12.png"
+          ],
+          "Technologies": [
+            "Laravel",
+            "Angular",
+            "SASS",
+            "Angular Material",
+            "RxJS"
+          ]
+        },
+        {
+          "Title": "Hands game",
+          "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
+          "imgs": [
+            "assets/images/hands-game.png"
+          ],
+          "ghLink": "https://github.com/andresjosehr/hands-game",
+          "demoLink": "https://projects.andresjosehr.com/hands-game",
+          "Technologies": [
+            "Angular",
+            "CSS GRID",
+            "SASS",
+            "Angular animations"
+          ]
+        },
+        {
+          "Title": "Countries viewer",
+          "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
+          "imgs": [
+            "assets/images/countries-viewer.png"
+          ],
+          "ghLink": "https://github.com/andresjosehr/countries-viewer",
+          "demoLink": "https://projects.andresjosehr.com/countries-viewer",
+          "Technologies": [
+            "Angular",
+            "RxJS",
+            "SASS",
+            "API"
+          ]
+        }
+      ]
+    },
+    {
+      "projectType": "More Project",
+      "list": [
+        {
+          "Title": "Pokemon",
+          "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
+          "ghLink": "https://github.com/andresjosehr/pokemon-angular",
+          "demoLink": "https://projects.andresjosehr.com/pokemon-list",
+          "Technologies": [
+            "Angular",
+            "RxJs",
+            "API",
+            "Bootstrap"
+          ]
+        },
+        {
+          "Title": "Coming soon page",
+          "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
+          "ghLink": "https://github.com/andresjosehr/coming-soon-page",
+          "demoLink": "https://projects.andresjosehr.com/coming-soon-page",
+          "Technologies": [
+            "Angular",
+            "SASS",
+            "CSS GRID",
+            "Reactive form"
+          ]
+        },
+        {
+          "Title": "Four card feature section",
+          "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
+          "ghLink": "https://github.com/andresjosehr/fourd-card-feature-section",
+          "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
+          "Technologies": [
+            "Angular",
+            "SASS",
+            "CSS GRID"
+          ]
+        },
+        {
+          "Title": "Social proof section",
+          "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
+          "ghLink": "https://github.com/andresjosehr/social-proof-section",
+          "demoLink": "https://projects.andresjosehr.com/social-proof-section",
+          "Technologies": [
+            "Angular",
+            "CSS GRID",
+            "GIT"
+          ]
+        },
+        {
+          "Title": "FAQ accordion card",
+          "Description": "FAQ accordion with logic and animations made in Angular.",
+          "ghLink": "https://github.com/andresjosehr/faq-accordion",
+          "demoLink": "https://proyectos.andresjosehr.com/faq-accordion",
+          "Technologies": [
+            "Angular",
+            "CSS GRID",
+            "Angular animations"
+          ]
+        },
+        {
+          "Title": "Profile card",
+          "Description": "Simple one-page design that features a profile letter with basic information about a person.",
+          "ghLink": "https://github.com/andresjosehr/profile-card-component",
+          "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
+          "Technologies": [
+            "Angular",
+            "SASS",
+            "GIT"
+          ]
+        }
+      ]
+    }
+  ]
 }

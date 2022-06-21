@@ -1,5 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+// @ts-ignore
+import data from '../../../../assets/data/basic-data.json';
 
 @Component({
   selector: 'app-proyects',
@@ -17,7 +19,7 @@ export class ProyectsComponent implements OnInit {
     autoplay: true,
     autoplayTimeout: 3000,
   };
-
+  JsonData = data;
   @ViewChild('imgContainer') imgContainer: ElementRef;
 
   constructor() {}
