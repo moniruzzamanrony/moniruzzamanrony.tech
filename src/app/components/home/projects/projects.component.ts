@@ -5,10 +5,10 @@ import data from '../../../../assets/data/basic-data.json';
 
 @Component({
   selector: 'app-proyects',
-  templateUrl: './proyects.component.html',
-  styleUrls: ['./proyects.component.scss'],
+  templateUrl: './projects.component.html',
+  styleUrls: ['./projects.component.scss'],
 })
-export class ProyectsComponent implements OnInit {
+export class ProjectsComponent implements OnInit {
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
