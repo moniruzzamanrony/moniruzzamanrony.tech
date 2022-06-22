@@ -94,8 +94,9 @@
           ]
         },
         {
-          "Title": "Proyexiot",
-          "Description": "Data monitoring platform belonging to water wells, tugboats, and various installations made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers.</span>",
+          "Title": "SWEPT",
+          "Associated": "Freelancing Project",
+          "Description": "At SWEPT, we make life easy by offering a convenient combination of home care and personal care services including <span class='underline'>Cleaning</span>, <span class='underline'>Handyman</span>, <span class='underline'>Pet Care</span>,<span class='underline'> Lawncare</span>,<span class='underline'> Grocery Delivery and Concierge service</span>, all within one company. Our customers skip the hassle of coordinating and let SWEPT take care of everything!",
           "imgs": [
             "assets/images/proyex/proyex1.png",
             "assets/images/proyex/proyex2.png",
@@ -110,42 +111,30 @@
             "assets/images/proyex/proyex11.png",
             "assets/images/proyex/proyex12.png"
           ],
+          "ghLink": "https://github.com/andresjosehr/hands-game",
+          "demoLink": "https://projects.andresjosehr.com/hands-game",
           "Technologies": [
             "Laravel",
-            "Angular",
-            "SASS",
-            "Angular Material",
-            "RxJS"
+            "React Native",
+            "MySql(DB)"
           ]
         },
         {
-          "Title": "Hands game",
-          "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
+          "Title": "Retail Plus",
+          "Associated": "Freelancing Project",
+          "Description": "Retail Plus is simply an application that <span class='underline'> easily connect between Retailer and Company </span> though online. Apps for retail businesses are a gold mine when it comes to improving shopping.",
           "imgs": [
             "assets/images/hands-game.png"
           ],
           "ghLink": "https://github.com/andresjosehr/hands-game",
           "demoLink": "https://projects.andresjosehr.com/hands-game",
           "Technologies": [
-            "Angular",
-            "CSS GRID",
-            "SASS",
-            "Angular animations"
-          ]
-        },
-        {
-          "Title": "Countries viewer",
-          "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
-          "imgs": [
-            "assets/images/countries-viewer.png"
-          ],
-          "ghLink": "https://github.com/andresjosehr/countries-viewer",
-          "demoLink": "https://projects.andresjosehr.com/countries-viewer",
-          "Technologies": [
-            "Angular",
-            "RxJS",
-            "SASS",
-            "API"
+            "Spring Boot",
+            "Angular 11",
+            "Bootstrap 5",
+            "Android Studio",
+            "MySQL(DB)",
+            "Server management"
           ]
         }
       ]
