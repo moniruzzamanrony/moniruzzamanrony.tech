@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+// @ts-ignore
+import data from '../../../../assets/data/basic-data.json';
 
 @Component({
   selector: 'app-skills',
@@ -7,6 +9,8 @@ import { NavigationEnd, Router } from '@angular/router';
   styleUrls: ['./skills.component.scss'],
 })
 export class SkillsComponent implements OnInit {
+  JsonData = data;
+
   constructor(private router: Router) {}
 
   ngOnInit(): void {

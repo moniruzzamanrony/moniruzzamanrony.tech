@@ -139,5 +139,15 @@
         }
       ]
     }
+  ],
+  "skills": [
+    {
+      "Title": "Java",
+      "LogoImagesLink": "assets/logo/java.png"
+    },
+    {
+      "Title": "Java",
+      "LogoImagesLink": "assets/logo/java.png"
+    }
   ]
 }

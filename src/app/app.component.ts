@@ -1,9 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
 import { Meta, Title } from '@angular/platform-browser';
-import { TranslateService } from '@ngx-translate/core';
-import { LanguageService } from 'src/app/services/language/language.service';
-import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -11,17 +8,9 @@ import { Location } from '@angular/common';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  constructor(
-    private titleService: Title,
-    private metaService: Meta,
-    private translateService: TranslateService,
-    private location: Location,
-    private languageService: LanguageService
-  ) {}
+  constructor(private titleService: Title, private metaService: Meta) {}
 
   ngOnInit(): void {
-    this.languageService.initLanguage();
-
     this.titleService.setTitle('Moniruzzaman Rony | Software Engineer');
 
     this.metaService.addTags([

@@ -10,19 +10,15 @@
       <div class="mt-5">
         <div class="row p-0">
           <div
-            (click)="redirect(project['demoLink'], $event)"
-            *ngFor="
-              let project of 'OtherProjects.Projects' | translate;
-              let i = index
-            "
+            *ngFor="let skill of JsonData.skills; let i = index"
             class="col-12 col-md-6 col-lg-3 col-xl-2 proyect-col"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <div class="more-proyect-box">
               <div class="text-center">
-                <img src="assets/logo/java.png" width="35" />
-                <p class="mt-2 font-weight-bold">Java</p>
+                <img [src]="skill.LogoImagesLink" width="35" />
+                <p class="mt-2 font-weight-bold">{{ skill.Title }}</p>
               </div>
             </div>
           </div>
