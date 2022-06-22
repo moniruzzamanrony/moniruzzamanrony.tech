@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-more-proyects',
-  templateUrl: './more-proyects.component.html',
-  styleUrls: ['./more-proyects.component.scss'],
+  selector: 'app-skills',
+  templateUrl: './skills.component.html',
+  styleUrls: ['./skills.component.scss'],
 })
-export class MoreProyectsComponent implements OnInit {
+export class SkillsComponent implements OnInit {
   constructor(private router: Router) {}
 
   ngOnInit(): void {

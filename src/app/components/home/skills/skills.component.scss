@@ -1,9 +1,22 @@
 @import "./../../../../variables.scss";
 
 .more-proyects {
+  .img-left {
+    float: left;
+  }
+
+  .img-right {
+    float: right
+  }
+
+  .center {
+    text-align: center;
+    border: 1px solid black;
+  }
+
   .proyect-col {
     padding: 10px;
-    height: 400px;
+    //height: 400px;
 
     .more-proyect-box {
       box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
@@ -12,7 +25,6 @@
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
-      display: flex;
       -webkit-box-pack: justify;
       -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
@@ -29,8 +41,8 @@
       -ms-flex-align: flex-start;
       align-items: flex-start;
       position: relative;
-      padding: 2rem 1.75rem;
-      height: 100%;
+      padding: 1rem 1.75rem;
+      //height: 100%;
       border-radius: 3px;
       -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
       transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -100,7 +112,6 @@
   }
 
 }
-
 
 @media(max-width: 1300px) {
   .more-proyects {
