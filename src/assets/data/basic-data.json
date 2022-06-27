@@ -24,6 +24,7 @@
           "Planning meetings in reports."
         ]
       },
+
       {
         "Tab": "IBCS-PRIMAX Software (Bangladesh) Ltd.",
         "Title": "Fullstack Programmer",
@@ -58,11 +59,12 @@
           "Associated": "Associated with Impel IT Solutions",
           "Description": "AtMetax is in charge of <span class='underline'>evaluating the cost of rebuilding structures</span> that have been destroyed due to unforeseen circumstances and are covered by insurance.",
           "imgs": [
-            "assets/images/agrourbana/agrourbana1.png",
-            "assets/images/agrourbana/agrourbana2.png",
-            "assets/images/agrourbana/agrourbana3.png",
-            "assets/images/agrourbana/agrourbana4.png",
-            "assets/images/agrourbana/agrourbana5.png"
+            "assets/images/impel/atmetax_1.png",
+            "assets/images/impel/atmetax_2.png",
+            "assets/images/impel/atmetax_3.png",
+            "assets/images/impel/atmetax_4.png",
+            "assets/images/impel/atmetax_5.png",
+            "assets/images/impel/atmetax_6.png"
           ],
           "Technologies": [
             "Spring Boot",
@@ -79,11 +81,9 @@
           "Associated": "Associated with IBCS-PRIMAX Software (Bangladesh) Ltd.",
           "Description": "This project aims to follow up on and continue the activities of the Implementation of Digital ECNEC (IDE project) to address capacity building and efficiency enhancements within agencies, ministries, and the planning commission to evaluate, appraise, and monitor public sector projects.",
           "imgs": [
-            "assets/images/tusuperplan/tusuperplan1.png",
-            "assets/images/tusuperplan/tusuperplan2.png",
-            "assets/images/tusuperplan/tusuperplan3.png",
-            "assets/images/tusuperplan/tusuperplan4.png",
-            "assets/images/tusuperplan/tusuperplan5.png"
+            "assets/images/ibcs/rms_1.png",
+            "assets/images/ibcs/rms_2.png",
+            "assets/images/ibcs/rms_3.png"
           ],
           "Technologies": [
             "Laravel",
@@ -98,18 +98,8 @@
           "Associated": "Freelancing Project",
           "Description": "At SWEPT, we make life easy by offering a convenient combination of home care and personal care services including <span class='underline'>Cleaning</span>, <span class='underline'>Handyman</span>, <span class='underline'>Pet Care</span>,<span class='underline'> Lawncare</span>,<span class='underline'> Grocery Delivery and Concierge service</span>, all within one company. Our customers skip the hassle of coordinating and let SWEPT take care of everything!",
           "imgs": [
-            "assets/images/proyex/proyex1.png",
-            "assets/images/proyex/proyex2.png",
-            "assets/images/proyex/proyex3.png",
-            "assets/images/proyex/proyex4.png",
-            "assets/images/proyex/proyex5.png",
-            "assets/images/proyex/proyex6.png",
-            "assets/images/proyex/proyex7.png",
-            "assets/images/proyex/proyex8.png",
-            "assets/images/proyex/proyex9.png",
-            "assets/images/proyex/proyex10.png",
-            "assets/images/proyex/proyex11.png",
-            "assets/images/proyex/proyex12.png"
+            "assets/images/freelancing/swept_1.png",
+            "assets/images/freelancing/swept_2.png"
           ],
           "ghLink": "https://github.com/andresjosehr/hands-game",
           "demoLink": "https://projects.andresjosehr.com/hands-game",
@@ -122,9 +112,12 @@
         {
           "Title": "Retail Plus",
           "Associated": "Freelancing Project",
-          "Description": "Retail Plus is simply an application that <span class='underline'> easily connect between Retailer and Company </span> though online. Apps for retail businesses are a gold mine when it comes to improving shopping.",
+          "Description": "Retail Plus is simply an application that <span class='underline'> easily connect between Retailer and Company </span> though online. Apps for retail businesses are a gold mine when it comes to improving shopping.There have also an admin panel which help to manage this app thought respected company.",
           "imgs": [
-            "assets/images/hands-game.png"
+            "assets/images/freelancing/retailer1.png",
+            "assets/images/freelancing/retailer2.png",
+            "assets/images/freelancing/retailer3.png",
+            "assets/images/freelancing/retailer4.png"
           ],
           "ghLink": "https://github.com/andresjosehr/hands-game",
           "demoLink": "https://projects.andresjosehr.com/hands-game",
@@ -146,8 +139,28 @@
       "LogoImagesLink": "assets/logo/java.png"
     },
     {
-      "Title": "Java",
-      "LogoImagesLink": "assets/logo/java.png"
+      "Title": "String boot",
+      "LogoImagesLink": "assets/logo/spring.png"
+    },
+    {
+      "Title": "Angular",
+      "LogoImagesLink": "assets/logo/angular.png"
+    },
+    {
+      "Title": "Android",
+      "LogoImagesLink": "assets/logo/android.png"
+    },
+    {
+      "Title": "SCSS",
+      "LogoImagesLink": "assets/logo/scss.png"
+    },
+    {
+      "Title": "Typescript",
+      "LogoImagesLink": "assets/logo/ts.png"
+    },
+    {
+      "Title": "React Native",
+      "LogoImagesLink": "assets/logo/react_native.png"
     }
   ]
 }
