@@ -2,7 +2,7 @@
   "personal": {
     "name": "Moniruzzaman Rony",
     "profession": "Software Engineer",
-    "aboutMe": "I have <span class='underline'>2 years+ of experience</span> in programming sector,\n and have been working as  <span class='underline'>A Fullstack developer</span>.\nI am dedicated to writing and refactoring  <span class='underline'>clean, reusable,\nand scalable code</span> in <span class='underline'>Angular</span> and\n<span class='underline'>Springboot</span> applying good practices and development\nstandards.",
+    "aboutMe": "I have almost <span class='underline'>3 years of experience</span> in programming sector,\n and have been working as  <span class='underline'>A Fullstack developer</span>.\nI am dedicated to writing and refactoring  <span class='underline'>clean, reusable,\nand scalable code</span> in <span class='underline'>Angular</span> and\n<span class='underline'>Springboot</span> applying good practices and development\nstandards.",
     "email": "moniruzzamanrony29@gmail.com",
     "githubUsername": "moniruzzamanrony",
     "linkinUsername": "monirozzaman-roni",
@@ -151,6 +151,10 @@
     {
       "Title": "SCSS",
       "LogoImagesLink": "assets/logo/scss.png"
+    },
+    {
+      "Title": "Angular Material",
+      "LogoImagesLink": "assets/logo/angular_meterial.png"
     },
     {
       "Title": "Typescript",
