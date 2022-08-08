@@ -100,8 +100,8 @@
             "assets/images/freelancing/swept_1.png",
             "assets/images/freelancing/swept_2.png"
           ],
-          "ghLink": "https://github.com/andresjosehr/hands-game",
-          "demoLink": "https://projects.andresjosehr.com/hands-game",
+          "ghLink": "https://github.com/moniruzzamanrony/swept-app",
+          "demoLink": "https://apps.apple.com/us/app/swept-app/id1581288570",
           "Technologies": [
             "Laravel",
             "React Native",
@@ -118,8 +118,7 @@
             "assets/images/freelancing/retailer3.png",
             "assets/images/freelancing/retailer4.png"
           ],
-          "ghLink": "https://github.com/andresjosehr/hands-game",
-          "demoLink": "https://projects.andresjosehr.com/hands-game",
+          "demoLink": "https://play.google.com/store/apps/details?id=com.justmarkeers.retailerapp&hl=en_US&gl=US",
           "Technologies": [
             "Spring Boot",
             "Angular 11",
