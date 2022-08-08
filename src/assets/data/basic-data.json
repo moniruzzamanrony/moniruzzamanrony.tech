@@ -17,11 +17,9 @@
         "Title": "Fullstack Software Engineer",
         "Date": "January 2022 - Present",
         "Description": [
-          "Creation and maintenance of a monitoring platform with graphics in WordPress.",
-          "Functional programming in templates and plugins to add the necessary monitoring features.",
-          "Implementation of continuous integration and daily backups.",
-          "Creation and maintenance of a second Monitoring Platform Done in Angular, Angular Material, Laravel, Mysql, RxJS, Sass with graphics (configurable), alarm system, and user management and configuration of general parameters.",
-          "Planning meetings in reports."
+          "Developed a Dutch insurance company’s project which help to calculate building rebuild cost and\nmake 3D structure of this building ..",
+          "Technology using Java 11, Spring-boot, Angular 11,Angular Material, Three.js etc.",
+          "Working Experience on International Project."
         ]
       },
 
@@ -30,10 +28,11 @@
         "Title": "Fullstack Programmer",
         "Date": "Dec 2020 - January 2022",
         "Description": [
-          "Implementing continuous improvements, working on frontend and backend.",
-          "Creating platforms with Angular, Laravel, ExpressJS, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
-          "Automation of processes with data structures.",
-          "Design layout with SASS, Bootstrap, Materialize, Bulma, etc."
+          "Developed microservices architecture based software for Bangladesh Planning Ministry.",
+          "Technology using Java 11, Spring-boot, Angular 11,Angular Material, SSO, Eureka, spring cloud gateway etc.",
+          "Build Project from sketch.",
+          "Working Experience on Bangladesh Government’s Project",
+          "Maintain code using by GitHub,GitLab ,JIRA ,bit-bucket for each project."
         ]
       },
       {
@@ -41,11 +40,11 @@
         "Title": "Junior developer",
         "Date": "January 2019 - Nev 2020",
         "Description": [
-          "Leading a team of 4 people in the development of a Tourism Data management platform made in Angular, Laravel, and MySQL.",
-          "Implementation CI / CD in Azure. Refactoring and optimizing application load times.",
+          "Doctor Appointment Application",
+          "Android App Development",
           "Coding of API requests with RxJS.",
-          "Creation of modules with complex reactive forms",
-          "Writing weekly reports about goals and plans."
+          "Technology using Java 8, Spring-boot, Angular 7,spring security and JWT etc.",
+          "Maintain accurate scheduling and meet object."
         ]
       }
     ]
