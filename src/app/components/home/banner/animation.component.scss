@@ -11,9 +11,7 @@
   animation: cube 35s ease-in forwards infinite;
 }
 
-.cube:nth-child(2n) {
-  border-color: #FFF;
-}
+
 
 .cube:nth-child(2) {
   animation-delay: 1s;
