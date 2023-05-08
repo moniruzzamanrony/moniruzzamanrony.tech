@@ -14,7 +14,7 @@ import data from '../../../../assets/data/basic-data.json';
 @Component({
   selector: 'app-banner',
   templateUrl: './banner.component.html',
-  styleUrls: ['./banner.component.scss'],
+  styleUrls: ['./banner.component.scss', './animation.component.scss'],
   animations: [
     trigger('bannerTrigger', [
       transition(':enter', [
