@@ -12,10 +12,9 @@
           <div
             *ngFor="let skill of JsonData.skills; let i = index"
             class="col-12 col-md-6 col-lg-3 col-xl-2 proyect-col"
-            data-aos="fade-up"
-            data-aos-duration="1000"
+
           >
-            <div class="more-proyect-box">
+            <div class="skill-box">
               <div class="text-center">
                 <img [src]="skill.LogoImagesLink" width="55"/>
                 <p class="mt-2 font-weight-bold">{{ skill.Title }}</p>

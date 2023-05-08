@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
       {
         name: 'keywords',
         content:
-          'Frontend, software, developer,backend,software engineer, java developer',
+          'frontend, software, developer,backend,software engineer, java developer,angular,moniruzzaman rony',
       },
       {
         name: 'description',
