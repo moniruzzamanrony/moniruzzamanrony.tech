@@ -3,9 +3,16 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "andresjosehr-portfolio": {
+        "moniruzzamanrony-tech": {
             "projectType": "application",
-            "schematics": {},
+            "schematics": {
+                "@schematics/angular:component": {
+                    "style": "scss"
+                  },
+                  "@schematics/angular:application": {
+                    "strict": true
+                  }
+            },
             "root": "",
             "sourceRoot": "src",
             "prefix": "app",
@@ -145,5 +152,5 @@
             }
         }
     },
-    "defaultProject": "moniruzzamanrony.tech"
+    "defaultProject": "moniruzzamanrony-tech"
 }

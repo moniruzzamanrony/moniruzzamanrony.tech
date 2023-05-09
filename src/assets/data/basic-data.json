@@ -13,7 +13,8 @@
   "professionalInfo": {
     "jobsExperience": [
       {
-        "Tab": "Impel IT Solutions",
+        "company": "Impel IT Solutions",
+        "website": "http://www.impelitsolutions.com/",
         "Title": "Fullstack Software Engineer",
         "Date": "January 2022 - Present",
         "Description": [
@@ -24,7 +25,8 @@
       },
 
       {
-        "Tab": "IBCS-PRIMAX Software (Bangladesh) Ltd.",
+        "company": "IBCS-PRIMAX Software (Bangladesh) Ltd.",
+        "website": "https://www.ibcs-primax.com/",
         "Title": "Fullstack Programmer",
         "Date": "Dec 2020 - January 2022",
         "Description": [
@@ -36,7 +38,8 @@
         ]
       },
       {
-        "Tab": "Chumbok IT (Remote)",
+        "company": "Chumbok IT (Remote)",
+        "website": "https://chumbok.com/",
         "Title": "Junior developer",
         "Date": "January 2019 - Nev 2020",
         "Description": [

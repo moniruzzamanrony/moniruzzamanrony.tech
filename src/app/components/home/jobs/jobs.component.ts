@@ -12,4 +12,8 @@ export class JobsComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  gotoWebsite(url:string): void{
+    window.open(url,"_blank");
+  }
 }

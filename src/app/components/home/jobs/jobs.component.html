@@ -20,11 +20,11 @@
             [ngbNavItem]="i"
             [title]="job.Tab"
           >
-            <a ngbNavLink>{{ job.Tab }}</a>
+            <a ngbNavLink>{{ job.company }}</a>
             <ng-template ngbNavContent>
               <h4 class="title-tab-content">
                 {{ job.Title }} |
-                <span class="company-tab-content">{{ job.Tab }}</span>
+                <span class="company-tab-content" (click)="gotoWebsite(job.website)">{{ job.company }}</span>
               </h4>
               <h5 class="job-time">{{ job.Date }}</h5>
               <!-- {{job.Description | json}} -->
