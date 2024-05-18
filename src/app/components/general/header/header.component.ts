@@ -73,4 +73,8 @@ export class HeaderComponent implements OnInit {
   changeLanguage(language: string): void {
     this.languageFormControl.setValue(language);
   }
+
+  redirectBlogSite() {
+    window.open("https://medium.com/@eproni29","_blank")
+  }
 }

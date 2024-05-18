@@ -2,12 +2,12 @@
   "personal": {
     "name": "Moniruzzaman Rony",
     "profession": "Software Engineer",
-    "aboutMe": "I have almost <span class='underline'>3 years of experience</span> in programming sector,\n and have been working as  <span class='underline'>A Fullstack developer</span>.\nI am dedicated to writing and refactoring  <span class='underline'>clean, reusable,\nand scalable code</span> in <span class='underline'>Angular</span> and\n<span class='underline'>Springboot</span> applying good practices and development\nstandards.",
+    "aboutMe": "\nWith nearly <span class='underline'>four years of professional experience</span> in the IT sector, I am a dedicated Full Stack programmer passionate about developing <span class='underline'>clean, reusable, and scalable software</span>. My expertise spans front-end and back-end development, and I am committed to <span class='underline'>delivering high-quality, efficient, and maintainable code.</span>\n",
     "email": "moniruzzamanrony29@gmail.com",
     "githubUsername": "moniruzzamanrony",
-    "linkinUsername": "monirozzaman-roni",
+    "linkinUsername": "monirozzaman-rony",
     "youtubeProfileLink": "https://www.youtube.com/channel/UCJ-mkAvUFPLYkMaMGz8xAhw",
-    "copyright": "Copyright &#9400; www.moniruzzamanrony.tech 2022",
+    "copyright": "Copyright &#9400; www.moniruzzamanrony.dev 2024",
     "cvName": "Moniruzzaman_Rony_CV.pdf"
   },
   "professionalInfo": {
@@ -19,7 +19,7 @@
         "Date": "January 2022 - Present",
         "Description": [
           "Developed a Dutch insurance company’s project which help to calculate building rebuild cost and\nmake 3D structure of this building ..",
-          "Technology using Java 11, Spring-boot, Angular 11,Angular Material, Three.js etc.",
+          "Technology using Java, Spring-boot, Angular,Angular Material,TailwindCSS, Three.js etc.",
           "Working Experience on International Project."
         ]
       },
@@ -158,6 +158,10 @@
     {
       "Title": "Angular Material",
       "LogoImagesLink": "assets/logo/angular_meterial.png"
+    },
+    {
+      "Title": "TailwindCSS",
+      "LogoImagesLink": "assets/logo/tailwind.png"
     },
     {
       "Title": "Typescript",

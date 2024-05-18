@@ -5,7 +5,7 @@
 >
   <div class="container">
     <a [routerLink]="'inicio'" class="navbar-brand text-light">
-      <img alt="logo" src="assets/images/coding64.png" />
+      <img alt="logo" src="assets/images/coding_gif.gif" width="70" height="50" />
     </a>
     <ul #nav="ngbNav" class="menu-ul" ngbNav>
       <li ngbNavItem>
@@ -36,6 +36,14 @@
         <a (click)="scroll('skills')" ngbNavLink
           ><span class="nav-number text-bold"><</span>
           <span class="underline nav-text"> Skills</span
+          ><span class="nav-number text-bold">/></span></a
+        >
+        <ng-template ngbNavContent>Second content</ng-template>
+      </li>
+      <li ngbNavItem>
+        <a (click)="redirectBlogSite()" ngbNavLink
+        ><span class="nav-number text-bold"><</span>
+          <span class="underline nav-text"> Blog</span
           ><span class="nav-number text-bold">/></span></a
         >
         <ng-template ngbNavContent>Second content</ng-template>
