@@ -184,6 +184,10 @@
     {
       "Title": "React Native",
       "LogoImagesLink": "assets/logo/react_native.png"
+    },
+    {
+      "Title": "ThreeJS",
+      "LogoImagesLink": "assets/logo/threejs.png"
     }
   ]
 }
