@@ -2,7 +2,7 @@
   "personal": {
     "name": "Moniruzzaman Rony",
     "profession": "Software Engineer",
-    "aboutMe": "\nWith nearly <span class='underline'>four years of professional experience</span> in the IT sector, I am a dedicated Full Stack programmer passionate about developing <span class='underline'>clean, reusable, and scalable software</span>. My expertise spans front-end and back-end development, and I am committed to <span class='underline'>delivering high-quality, efficient, and maintainable code.</span>\n",
+    "aboutMe": "\nWith nearly <span class='underline'>five years of professional experience</span> in the IT sector, I am a dedicated Full Stack programmer passionate about developing <span class='underline'>clean, reusable, and scalable software</span>. My expertise spans front-end and back-end development, and I am committed to <span class='underline'>delivering high-quality, efficient, and maintainable code.</span>\n",
     "email": "moniruzzamanrony29@gmail.com",
     "githubUsername": "moniruzzamanrony",
     "linkinUsername": "monirozzaman-rony",
@@ -12,6 +12,20 @@
   },
   "professionalInfo": {
     "jobsExperience": [
+      {
+        "company": "BEM Group",
+        "website": "https://bem.group/",
+        "Title": "Backend Engineer (REMOTE ‑ PART‑TiME)",
+        "Date": "Nov 2024 - Present",
+        "Description": [
+          "Worked on Music (Pure Sounds) and AI Image Generation (PixiAI) related apps.",
+          "TGenerate AI image based on prompt and saving s3.",
+          "Implement Netsellerpay payment gateway in both projects.",
+          "Worked on shipping, billing, and card add functionality of WallArt module in PixiAI",
+          "Reduced AI Image generation time using Multi‑Threading and Radis.",
+          "Technology using Java, Spring‑boot, AWS EC2, S3, Github Action etc."
+        ]
+      },
       {
         "company": "Impel IT Solutions",
         "website": "http://www.impelitsolutions.com/",
