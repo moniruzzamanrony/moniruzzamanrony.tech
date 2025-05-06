@@ -71,6 +71,63 @@
       "projectType": "Feature Project",
       "list": [
         {
+          "Title": "Suseba",
+          "Associated": "Freelancing Project",
+          "Description": "Suseba is a <span class='underline'>health-focused app</span> that provides access to doctor information, indoor health services, and more. Currently in development for both <span class='underline'>web and mobile platforms</span>, Suseba aims to make healthcare more accessible and convenient.",
+          "imgs": [
+            "assets/images/freelancing/suseba/suseba_1.png",
+            "assets/images/freelancing/suseba/suseba_2.png",
+            "assets/images/freelancing/suseba/suseba_3.png"
+          ],
+          "demoLink": "https://suseba.com/",
+          "playstoreLink":"https://play.google.com/store/apps/details?id=dev.moniruzzamanrony.susebav2",
+          "Technologies": [
+            "Spring Boot",
+            "Native Android",
+            "MySql(DB)"
+          ]
+        },
+        {
+        "Title": "Pure Sound",
+        "Associated": "Associated with BEM Group",
+        "Description": "Pure Sound is a <span class='underline'>next-generation music app</span> similar to Spotify, offering streaming capabilities along with <span class='underline'>AI-powered music</span> generation. Users can listen to their favorite tracks and also create custom AI-generated music using credits, which can be purchased within the app.",
+        "imgs": [
+          "assets/images/bemgroup/puresound/pure_sound_1.png",
+          "assets/images/bemgroup/puresound/pure_sound_2.png",
+          "assets/images/bemgroup/puresound/pure_sound_3.png",
+          "assets/images/bemgroup/puresound/pure_sound_4.png"
+        ],
+        "demoLink": "https://puresounds.cloud/",
+        "Technologies": [
+          "Spring Boot",
+          "Next.js",
+          "Tailwind",
+          "oAuth2",
+          "Postgresql(DB)"
+        ]
+      },
+      {
+        "Title": "PixiAI",
+        "Associated": "Associated with BEM Group",
+        "Description": "PixiAI is an <span class='underline'>AI-powered image generation app</span> that creates stunning visuals from text prompts. Users can turn their creations into <span class='underline'>real-world</span> art with the option to print images in high quality, complete with a photo frame, ready for wall hanging..",
+        "imgs": [
+          "assets/images/bemgroup/pixiai/pixiai_1.png",
+          "assets/images/bemgroup/pixiai/pixiai_2.png",
+          "assets/images/bemgroup/pixiai/pixiai_3.png",
+          "assets/images/bemgroup/pixiai/pixiai_4.png",
+          "assets/images/bemgroup/pixiai/pixiai_5.png",
+          "assets/images/bemgroup/pixiai/pixiai_6.png"
+        ],
+        "demoLink": "https://app.pixiai.net/",
+        "Technologies": [
+          "Spring Boot",
+          "Next.js",
+          "Tailwind",
+          "oAuth2",
+          "Postgresql(DB)"
+        ]
+      },
+        {
           "Title": "AtMetax",
           "Associated": "Associated with Impel IT Solutions",
           "Description": "AtMetax is in charge of <span class='underline'>evaluating the cost of rebuilding structures</span> that have been destroyed due to unforeseen circumstances and are covered by insurance.",
